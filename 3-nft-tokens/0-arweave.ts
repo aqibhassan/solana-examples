@@ -38,29 +38,21 @@ export async function uploadMetadata(data: string): Promise<string> {
 async function main() {
 	await uploadMetadata(`
 	{
-		"name": "Pico-8 Poom",
-		"symbol": "",
-		"description": "It's poom poom!",
-		"seller_fee_basis_points": 500,
-		"image": "https://www.arweave.net/43xtSbpMnBs9svYNT3gGajHD3NctDsTs_pRT9NQvHz4?ext=png",
-		"attributes": [
-			{
-				"trait_type": "",
-				"value": "fps"
-			}
-		],
-		"external_url": "",
+		"name": "NEW Aqib NFT",
+		"symbol": "AQB",
+		"description": "Aqib hassan Blockchain dev!",
+		"image": "https://www.itgmanagment.com/uploads/aqib.jpg",
 		"properties": {
 			"files": [
 				{
-					"uri": "https://www.arweave.net/43xtSbpMnBs9svYNT3gGajHD3NctDsTs_pRT9NQvHz4?ext=png",
+					"uri": "https://www.itgmanagment.com/uploads/aqib.jpg",
 					"type": "image/png"
 				}
 			],
 			"category": "image",
 			"creators": [
 				{
-					"address": "Aokoq5QWYXUscom7mY2xbWRVbRQGWqECdsHdWQsUMJH8",
+					"address": "8nT9XDmLkeE5kGC8ngFD9GLte28J5vZv598JxuSfqQEP",
 					"share": 100
 				}
 			]
